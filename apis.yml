@@ -1,7 +1,29 @@
 aid: hangry
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/hangry.png
 name: Hangry
-description: Hangry is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Hangry is an Indonesian multi-brand virtual restaurant and cloud-kitchen
+  company founded in 2019 and backed by 500 Global. It designs, operates, and
+  delivers a portfolio of consumer food brands - including Moon Chicken, San
+  Gyu, Ayam Koplo, Dari Pada, Wai Thai, Pizza Gang, and Accha - engineered to be
+  tasty, consistent, and affordable for the mass market and sold primarily
+  through third-party food-delivery channels. Hangry operates as a
+  direct-to-consumer food and beverage business rather than an API or developer
+  platform provider; it publishes no public developer portal, API
+  documentation, or machine-readable API surface. This profile was surfaced as a
+  500 Global portfolio company and added to the API Evangelist network for
+  enrichment tracking.
 url: https://raw.githubusercontent.com/api-evangelist/hangry/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +31,23 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-enrichment: >-
+  Enrichment 2026-07-19: probed for a developer surface - no public API. api.ishangry.com
+  404, docs.ishangry.com 401 (protected), developer(s).ishangry.com unresolved, no
+  /.well-known/security.txt, no /.well-known/openid-configuration, no /llms.txt. Consumer
+  food-delivery brand with no machine-readable API artifacts to derive. Identity-only pass.
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Food Delivery
+- Restaurants
+- Cloud Kitchen
+- Virtual Restaurant
+- Food and Beverage
+- Consumer
+- Indonesia
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +57,5 @@ maintainers:
 common:
 - type: Website
   url: https://ishangry.com
+- type: PrivacyPolicy
+  url: https://www.ishangry.com/privacy-policy
