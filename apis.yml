@@ -36,7 +36,7 @@ x-enrichment: >-
   404, docs.ishangry.com 401 (protected), developer(s).ishangry.com unresolved, no
   /.well-known/security.txt, no /.well-known/openid-configuration, no /llms.txt. Consumer
   food-delivery brand with no machine-readable API artifacts to derive. Identity-only pass.
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
 tags:
